@@ -1,4 +1,4 @@
 FROM openjdk:11-jdk-slim
-COPY HelloWorld.java/HelloWorld.java
+COPY ..
 RUN javac HelloWorld.java
 CMD ["java","HelloWorld"]
