@@ -15,4 +15,5 @@ spec:
       containers:
       - name: helloworld
         image: jahnavisamala1/helloworld:latest 
-        image pullpolicy : Always
+
+        imagePullPolicy : Always
